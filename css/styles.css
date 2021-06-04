@@ -1,0 +1,483 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'open sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --blue: #538ca3;
+  --green: #23966b;
+  --grey: #666666;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1267px;
+  height: 150.5px;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+header #logo {
+  width: 135px;
+  height: 104px;
+}
+
+header #logo img {
+  height: inherit;
+  padding: 0;
+}
+
+header .links-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 414px;
+  height: 104px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 0;
+}
+
+header .links-container .social-media-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 420px;
+  height: 15px;
+  font-size: 11px;
+}
+
+header .links-container .social-media-links a {
+  margin: auto;
+  font-family: monospace;
+  text-decoration: none !important;
+  color: var(--green);
+}
+
+header .links-container .social-media-links a img {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0;
+  height: 11px;
+}
+
+header .links-container .nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header .links-container a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none !important;
+  color: var(--grey);
+  font-weight: bolder;
+}
+
+:root {
+  --blue: #538ca3;
+  --green: #23966b;
+  --grey: #666666;
+}
+
+#content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  margin: auto;
+  margin-top: 10vh;
+  width: 1267px;
+  height: 513px;
+}
+
+#content-container .p1-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  width: 633px;
+  height: inherit;
+}
+
+#content-container .p1-container p {
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 633px;
+  height: 392px;
+  color: #666666;
+}
+
+#content-container .p1-container #placeHolder-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: inherit;
+  height: 103px;
+  background-image: url(/Assets/placeholder.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#content-container .p1-container #placeHolder-container span {
+  text-align: center;
+  font-size: 22px;
+  padding: 0;
+  color: #666666;
+}
+
+#content-container .p1-container #placeHolder-container #for-registration {
+  padding: 0;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bolder;
+  color: #23966b;
+}
+
+:root {
+  --blue: #538ca3;
+  --green: #23966b;
+  --grey: #666666;
+}
+
+.p2-container {
+  width: 1267px;
+  margin: auto;
+}
+
+.p2-container #h1-1 {
+  width: 1267px;
+  margin: auto;
+  margin-top: 10vh;
+  height: 35px;
+}
+
+.p2-container ul {
+  list-style: none;
+  font-size: 16px;
+}
+
+.p2-container ul li::before {
+  content: "\2022";
+  color: var(--green);
+  font-weight: bolder;
+  width: 1em;
+}
+
+.p2-container ul li span {
+  font-size: 16px;
+  line-height: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #666666;
+}
+
+.p2-container #sub-ul li {
+  font-size: 16px;
+  line-height: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #666666;
+}
+
+.p2-container #p2-button {
+  width: 142px;
+  height: 35px;
+  font-size: 14px;
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--green)), to(var(--blue)));
+  background-image: linear-gradient(to right, var(--green), var(--blue));
+  border: transparent;
+  border-radius: 20px;
+  color: white;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.p2-container #p2-button img {
+  height: 50%;
+  padding: 0;
+  margin: auto;
+  background-color: transparent;
+  color: white;
+}
+
+:root {
+  --blue: #538ca3;
+  --green: #23966b;
+  --grey: #666666;
+}
+
+.p3-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 1267px;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+.p3-content #p3-opening-cerem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: inherit;
+}
+
+.p3-content #p3-opening-cerem #p3-oc-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 385px;
+  height: 367px;
+  background-image: url("/Assets/opening_ceremony.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.p3-content #p3-opening-cerem #p3-oc-1 span {
+  text-align: center;
+  margin: auto;
+  color: var(--green);
+}
+
+.p3-content #p3-opening-cerem #p3-oc-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 881px;
+  height: inherit;
+}
+
+.p3-content #p3-opening-cerem #p3-oc-2 #p3-oc-2-1,
+.p3-content #p3-opening-cerem #p3-oc-2 #p3-oc-2-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: inherit;
+  height: 320px;
+}
+
+.p3-content #p3-opening-cerem #p3-oc-2 #p3-oc-2-1 div,
+.p3-content #p3-opening-cerem #p3-oc-2 #p3-oc-2-2 div {
+  width: 50%;
+  height: inherit;
+}
+
+.p3-content #p3-opening-cerem #p3-oc-2 #p3-oc-2-1 div :first-child,
+.p3-content #p3-opening-cerem #p3-oc-2 #p3-oc-2-2 div :first-child {
+  display: block;
+  height: 25%;
+  text-align: left;
+  padding: 30px;
+  font-size: 14px;
+  font-weight: bolder;
+  color: var(--grey);
+}
+
+.p3-content #p3-opening-cerem #p3-oc-2 #p3-oc-2-1 div #oc-span-2-2,
+.p3-content #p3-opening-cerem #p3-oc-2 #p3-oc-2-2 div #oc-span-2-2 {
+  display: block;
+  height: 23%;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 16px;
+  font-weight: bolder;
+  color: var(--grey);
+}
+
+.p3-content #p3-opening-cerem #p3-oc-2 #p3-oc-2-1 div :last-child,
+.p3-content #p3-opening-cerem #p3-oc-2 #p3-oc-2-2 div :last-child {
+  display: block;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 16px;
+  color: var(--grey);
+}
+
+.p3-content #p3-opening-cerem #p3-oc-2 #p3-oc-2-1 div .oc-span-2,
+.p3-content #p3-opening-cerem #p3-oc-2 #p3-oc-2-2 div .oc-span-2 {
+  display: block;
+  height: 30%;
+  text-align: left;
+  padding-left: 30px;
+  line-height: 30px;
+  width: 80%;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.p3-content #p3-opening-cerem #p3-oc-2 #rectangle-10 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  width: inherit;
+  height: 47px;
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--green)), to(var(--blue)));
+  background-image: linear-gradient(to right, var(--green), var(--blue));
+}
+
+.p3-content #p3-opening-cerem #p3-oc-2 #rectangle-10 span {
+  color: white;
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+.p3-content #p3-master-class {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: inherit;
+}
+
+.p3-content #p3-master-class #p3-mc-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 385px;
+  height: 367px;
+  background-image: url("/Assets/opening_ceremony.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.p3-content #p3-master-class #p3-mc-1 span {
+  text-align: center;
+  margin: auto;
+  color: var(--green);
+}
+
+@font-face {
+  font-family: open-sans, regular;
+  src: url(/Assets/Fonts/OpenSans-Regular.ttf);
+  font-family: open-sans, bold;
+  src: url(/Assets/Fonts/OpenSans-Bold.ttf);
+  font-family: open-sans, semi-bold;
+  src: url(/Assets/Fonts/OpenSans-SemiBold.ttf);
+}
+
+:root {
+  --blue: #538ca3;
+  --green: #23966b;
+  --grey: #666666;
+}
+
+#banner-container {
+  display: block;
+  width: 1267px;
+  height: 399px;
+  margin: auto;
+}
+
+#banner-container img {
+  width: inherit;
+  height: inherit;
+}
+
+#rectangle-5 {
+  display: block;
+  width: 1267px;
+  height: 50px;
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--green)), to(var(--blue)));
+  background-image: linear-gradient(to right, var(--green), var(--blue));
+  margin: auto;
+}
+/*# sourceMappingURL=styles.css.map */

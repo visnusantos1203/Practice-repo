@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@import "./.header";
+@import "./section1";
+@import "./section2";
+@import "./section3";
+
+@font-face {
+    font-family: open-sans, regular;
+    src: url(/Assets/Fonts/OpenSans-Regular.ttf);
+    font-family: open-sans, bold;
+    src: url(/Assets/Fonts/OpenSans-Bold.ttf);
+    font-family: open-sans, semi-bold;
+    src: url(/Assets/Fonts/OpenSans-SemiBold.ttf);
+}
+@mixin width {
+    width: 1267px; 
+}
+
+:root {
+    --blue: #538ca3;
+    --green: #23966b;
+    --grey: #666666;
+  }
+
+#banner-container{
+    display: block;
+    @include width();
+    height: 399px;
+    margin: auto;
+    img{
+        width: inherit;
+        height: inherit;
+    }
+}
+
+#rectangle-5{
+    display: block;
+    @include width();
+    height: 50px;
+    background-image: linear-gradient(to right, var(--green), var(--blue));
+    margin: auto;
+}
+

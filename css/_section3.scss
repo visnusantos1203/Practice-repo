@@ -1,0 +1,133 @@
+@mixin width {
+    width: 1267px; 
+}
+
+:root {
+    --blue: #538ca3;
+    --green: #23966b;
+    --grey: #666666;
+  }
+
+  .p3-content{
+    display: flex;
+    flex-direction: column;
+    @include width();
+    margin: auto;
+    margin-top: 5vh;
+    #p3-opening-cerem{
+        display: flex;
+        width: inherit;
+        //border: 1px solid black;
+        #p3-oc-1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            width: 385px;
+            height: 367px;
+            background-image: url("/Assets/opening_ceremony.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            span{
+                text-align: center;
+                margin: auto;
+                color: var(--green);
+            }
+        }
+        #p3-oc-2{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 881px;
+            height: inherit;
+            //border: 1px solid red;
+            #p3-oc-2-1,
+            #p3-oc-2-2{
+                display: flex;
+                width: inherit;
+                height: 367px - 47px;
+                div{
+                    //background-color: lightblue;
+                    width: 50%;
+                    height: inherit;
+                    //border: 1px solid black;
+                    :first-child{
+                        display: block;
+                        height: 25%;
+                        text-align: left;
+                        padding: 30px;
+                        font-size: 14px;
+                        font-weight: bolder;
+                        color: var(--grey);
+                    }
+                    #oc-span-2-2{
+                        display: block;
+                        height: 23%;
+                        text-align: left;
+                        padding-left: 30px;
+                        font-size: 16px;
+                        font-weight: bolder;
+                        color: var(--grey);
+                        //border: 1px solid black;
+                    }
+                    :last-child{
+                        display: block;
+                        text-align: left;
+                        padding-left: 30px;
+                        font-size: 16px;
+                        color: var(--grey);
+                        //border: 1px solid black;
+                    }
+                    .oc-span-2{
+                        display: block;
+                        height: 30%;
+                        text-align: left;
+                        padding-left: 30px;
+                        line-height: 30px;
+                        width: 80%;
+                        font-size: 22px;
+                        font-weight: bolder;
+                    }
+                }
+            }
+            #rectangle-10{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-content: flex-start;    
+                width: inherit;
+                height: 47px;
+                background-image: linear-gradient(to right, var(--green), var(--blue));
+                span{
+                    color: white;
+                    font-size: 14px;
+                    padding-left: 15px;
+                    //margin: auto;
+                }
+            }
+        }
+    }#p3-master-class{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        //align-content: center;
+        width: inherit;
+        //border: 1px solid black;
+        #p3-mc-1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            width: 385px;
+            height: 367px;
+            background-image: url("/Assets/opening_ceremony.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            span{
+                text-align: center;
+                margin: auto;
+                color: var(--green);
+            }
+        }    
+    }
+}
