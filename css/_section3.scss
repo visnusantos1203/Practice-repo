@@ -14,7 +14,8 @@
     @include width();
     margin: auto;
     margin-top: 5vh;
-    #p3-opening-cerem{
+    #p3-opening-cerem,
+    #p3-master-class{
         display: flex;
         width: inherit;
         //border: 1px solid black;
@@ -108,10 +109,10 @@
         }
     }#p3-master-class{
         display: flex;
-        flex-direction: column;
         justify-content: center;
         //align-content: center;
         width: inherit;
+        margin-top: 5vh;
         //border: 1px solid black;
         #p3-mc-1{
             display: flex;
